@@ -1,0 +1,64 @@
+.estiloBodyContacto{
+    background-image: url(/img/ImagenContacto.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin:0;
+    }
+    
+    .estiloFormContacto{
+    width: 450px;
+    margin:auto;
+    background: rgba(100,145,115,0.7);
+    padding:10px 20px;
+    box-sizing:border-box;
+    margin-top:20px;
+    border-radius:7px;
+    }
+    
+    .tituloContactos{
+    color:white;
+    text-align: center;
+    margin:0;
+    font-size:30px;
+    margin-bottom:30px;
+    font-family: $fonttexto;
+    }
+    
+    .estiloInput {
+    width:100%;
+    margin-bottom:20px;
+    padding:7px;
+    box-sizing:border-box;
+    font-size:15px;
+    border: none;
+    }
+    
+    .estiloTextarea{
+    min-height:100px;
+    max-height:200px;
+    max-width:100%;
+    width:100%;
+    margin-bottom:20px;
+    padding:7px;
+    box-sizing:border-box;
+    font-size:15px;
+    border: none;
+    }
+    
+    #botonForm{
+    background-color: green;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-family: $fonttexto;
+    border-radius: 000.25rem;
+    
+   &:hover{
+    text-decoration: underline;
+    background-color: #024b00;}
+    }
+    
+    @media only screen and (max-width: 480px){
+    .estiloFormContacto{
+    width:100%;
+    }
+       }

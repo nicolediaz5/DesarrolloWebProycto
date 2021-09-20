@@ -1,0 +1,98 @@
+
+
+@import "utilities/variables";
+
+.estilosTitulo{
+    position: absolute;
+    top: 250px;
+    left: 580px;
+    font-family: $fonttitulo;
+    font-size: 80px;
+    text-align: center;
+    color: $colortitulo;
+    text-shadow: -2px -2px 1px white;
+    line-height: 1;
+}
+// segundo article
+
+.estilosTitulo2{
+    font-family: $fonttitulo;
+    font-size: xx-large;
+    color: $colortitulo; 
+    text-align: center; 
+    padding-bottom: 20px;  
+}
+
+
+// cudrados nuevos tercer articulo
+.card-title2{
+    font-family: $fonttexto;
+    
+}
+.card-title{
+    font-family: 'Besley', serif;
+    font-style: italic;
+    font-size: xx-large;
+    color: white; 
+    text-align: center; 
+    padding-top: 100px;
+}
+
+//igual en cada seccion
+
+
+.tituloSeccion{
+    color: rgb(7, 90, 44);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    background-color: rgb(238, 238, 238);
+    font-size: xx-large;
+    margin-top: 150px;
+       animation: flash;
+    animation-duration: 5s;
+}
+//main blog
+
+.noticia__titulo {
+	font-style: bold;
+	font-family: 'Cabin', sans-serif;
+	font-size:xx-large;
+	color: rgb(2, 75, 0);  
+	margin-bottom: 20px;
+}
+
+
+.noticia__parrafo {
+	line-height: 28px;
+	color:black;
+    font-family: $fonttexto;
+    font-size: large;
+
+  
+}
+
+//nav nosotros
+
+
+.estiloParrafos2{
+    color:black;
+    font-family: $fonttexto;
+  padding: 10px 20px 10px 20px;
+}
+
+//main nosotros
+.estitloTitulos5{
+    font-family: 'STIX Two Text', serif;
+    letter-spacing: 4px;
+    color: $colortitulo;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+    &:hover{
+        transform: scale(2); }
+     
+}
+

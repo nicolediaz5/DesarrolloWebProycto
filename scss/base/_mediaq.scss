@@ -1,0 +1,106 @@
+
+   @media only screen and (max-width: 1040px) {
+
+    .estilosTitulo{
+        position: absolute;
+        top: 300px;
+        left: 220px;
+        font-family: $fonttitulo;
+        font-size: 60px;
+        text-align: center;
+        color: darkgreen;
+        line-height: 1;
+    }
+    .d-flex{ 
+        position: absolute;
+    left: 410px;
+    bottom: 280px;
+      }
+
+
+    #estiloBuscar{
+        background-color: green;
+        color: white;
+        width: 80px;
+        height: 40px;
+        font-family: 'Hind Madurai', sans-serif;
+     
+    }
+    #estiloCategoria{
+        width: 100px;
+        height: 30px;
+    }
+
+
+    
+   }
+  @media only screen and (max-width: 768px) {
+
+
+   .estilosTitulo{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-family: $fonttitulo;
+    font-size: 50px;
+    text-align: center;
+    color: darkgreen;
+    line-height: 1;
+}
+#Buscador{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+
+}
+#estiloBuscar{
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 20px;
+    font-family: $fonttexto;
+ 
+}
+#estiloCategoria{
+    width: 80px;
+    height: 20px;
+}
+}
+
+
+   @media only screen and (max-width: 480px) {
+    .estilosTitulo{
+        position: absolute;
+        top: 110px;
+        left: 100px;
+        font-family: $fonttitulo;
+        font-size: 25px;
+        text-align: center;
+        color: darkgreen;
+     line-height: 1;
+    }
+    #Buscador{
+        position: absolute;
+        top: 180px;
+        left: 160px;
+    
+    }
+    #estiloBuscar{
+        background-color: green;
+        color: white;
+        width: 60px;
+        height: 20px;
+        font-family: 'Hind Madurai', sans-serif;
+     
+    }
+    #estiloCategoria{
+        width: 60px;
+        height: 20px;
+    }
+}
+   
+@media only screen and (max-width: 480px){
+    .estiloFormContacto{
+    width:100%;
+    }
+       }

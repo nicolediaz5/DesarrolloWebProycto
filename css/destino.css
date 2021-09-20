@@ -1,0 +1,414 @@
+.nav-link {
+  color: dimgray !important; }
+
+nav.navbar {
+  background: #ffffff96 !important; }
+
+.navbar-link {
+  color: dimgray !important; }
+
+.nav-link:hover {
+  color: #006400 !important; }
+
+.d-flex {
+  position: absolute;
+  left: 800px;
+  bottom: 280px; }
+
+.btn-outline-success {
+  background-color: #006400 !important;
+  color: white !important; }
+
+main {
+  background-color: #f0efef;
+  margin-top: 30px; }
+
+.PrimerArticle {
+  padding-top: 30px;
+  width: 100%; }
+
+.seccionesFlotantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px; }
+
+.seccionesFlotantes2 {
+  background-image: linear-gradient(#649173, #fdfdfd);
+  background-image: linear-gradient(top, bottom);
+  background-size: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 40px; }
+
+.seccionesFlotantesNuevas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px; }
+
+.box {
+  margin: 20px 20px 20px 20px; }
+
+.box__noticia {
+  background-color: #93b693;
+  border-radius: 0.80rem;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.noticia__img {
+  margin-right: 30px;
+  border-radius: 00.25rem; }
+
+.navFlotante {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.parrafosFlotantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center; }
+
+.seccionesForm {
+  margin-left: 20px; }
+
+.nuevoArticle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px; }
+
+.bg-estilo {
+  background-image: linear-gradient(to top, #649173, #fdfdfd);
+  background-size: auto;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+.estiloButton {
+  list-style: none;
+  margin-top: 10px;
+  background-color: green;
+  padding: 10px 10px 10px 10px; }
+
+button:hover {
+  background-color: #024b00; }
+
+button li {
+  color: white;
+  font-family: "Hind Madurai", sans-serif;
+  text-align: center; }
+  button li:hover {
+    text-decoration: underline; }
+
+.botonNuevo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.botonNuevoEstilo {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #006400 !important;
+  border-color: #024b00 !important;
+  list-style: none !important;
+  margin-left: 20px; }
+
+.btn:hover {
+  background-color: #024b00 !important;
+  border-color: #024b00 !important;
+  text-decoration: underline !important; }
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: max-content;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .contenedor figure {
+    position: relative;
+    height: 300px;
+    cursor: pointer;
+    width: 400px;
+    overflow: hidden; }
+    .contenedor figure img {
+      width: 100%;
+      height: 100%;
+      transition: all 400ms ease-out;
+      will-change: transform; }
+    .contenedor figure .capa {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(100, 145, 115, 0.7);
+      transition: all 400ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center; }
+      .contenedor figure .capa h3 {
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+        margin-top: 30px; }
+    .contenedor figure:hover > .capa {
+      opacity: 1;
+      visibility: visible; }
+      .contenedor figure:hover > .capa h3 {
+        margin-top: 130px;
+        font-family: "Hind Madurai", sans-serif; }
+    .contenedor figure:hover > img {
+      transform: scale(1.3); }
+
+.estilosTitulo {
+  position: absolute;
+  top: 250px;
+  left: 580px;
+  font-family: "Merriweather", serif;
+  font-size: 80px;
+  text-align: center;
+  color: #024b00;
+  text-shadow: -2px -2px 1px white;
+  line-height: 1; }
+
+.estilosTitulo2 {
+  font-family: "Merriweather", serif;
+  font-size: xx-large;
+  color: #024b00;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.card-title2 {
+  font-family: "Hind Madurai", sans-serif; }
+
+.card-title {
+  font-family: 'Besley', serif;
+  font-style: italic;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  padding-top: 100px; }
+
+.tituloSeccion {
+  color: #075a2c;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  background-color: #eeeeee;
+  font-size: xx-large;
+  margin-top: 150px;
+  animation: flash;
+  animation-duration: 5s; }
+
+.noticia__titulo {
+  font-style: bold;
+  font-family: 'Cabin', sans-serif;
+  font-size: xx-large;
+  color: #024b00;
+  margin-bottom: 20px; }
+
+.noticia__parrafo {
+  line-height: 28px;
+  color: black;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: large; }
+
+.estiloParrafos2 {
+  color: black;
+  font-family: "Hind Madurai", sans-serif;
+  padding: 10px 20px 10px 20px; }
+
+.estitloTitulos5 {
+  font-family: 'STIX Two Text', serif;
+  letter-spacing: 4px;
+  color: #024b00;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline; }
+  .estitloTitulos5:hover {
+    transform: scale(2); }
+
+.animacionFotos:hover {
+  animation: pulse;
+  animation-duration: 3s; }
+
+.animacionFotosNueva:hover {
+  animation: pulse;
+  animation-duration: 1s; }
+
+@media only screen and (max-width: 1040px) {
+  .estilosTitulo {
+    position: absolute;
+    top: 300px;
+    left: 220px;
+    font-family: "Merriweather", serif;
+    font-size: 60px;
+    text-align: center;
+    color: darkgreen;
+    line-height: 1; }
+  .d-flex {
+    position: absolute;
+    left: 410px;
+    bottom: 280px; }
+  #estiloBuscar {
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-family: 'Hind Madurai', sans-serif; }
+  #estiloCategoria {
+    width: 100px;
+    height: 30px; } }
+
+@media only screen and (max-width: 768px) {
+  .estilosTitulo {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    text-align: center;
+    color: darkgreen;
+    line-height: 1; }
+  #Buscador {
+    position: absolute;
+    top: 220px;
+    left: 100px; }
+  #estiloBuscar {
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 20px;
+    font-family: "Hind Madurai", sans-serif; }
+  #estiloCategoria {
+    width: 80px;
+    height: 20px; } }
+
+@media only screen and (max-width: 480px) {
+  .estilosTitulo {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    text-align: center;
+    color: darkgreen;
+    line-height: 1; }
+  #Buscador {
+    position: absolute;
+    top: 180px;
+    left: 160px; }
+  #estiloBuscar {
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 20px;
+    font-family: 'Hind Madurai', sans-serif; }
+  #estiloCategoria {
+    width: 60px;
+    height: 20px; } }
+
+@media only screen and (max-width: 480px) {
+  .estiloFormContacto {
+    width: 100%; } }
+
+.estiloBodyContacto {
+  background-image: url(/img/ImagenContacto.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0; }
+
+.estiloFormContacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(100, 145, 115, 0.7);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+.tituloContactos {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: "Hind Madurai", sans-serif; }
+
+.estiloInput {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none; }
+
+.estiloTextarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none; }
+
+#botonForm {
+  background-color: green;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  font-family: "Hind Madurai", sans-serif;
+  border-radius: 000.25rem; }
+  #botonForm:hover {
+    text-decoration: underline;
+    background-color: #024b00; }
+
+@media only screen and (max-width: 480px) {
+  .estiloFormContacto {
+    width: 100%; } }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  background-image: url(/img/FondoFooter-10.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain; }
+  footer ul {
+    list-style: none;
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    line-height: 30px; }
+    footer ul .listaFooterestilo {
+      color: #024b00; }
+      footer ul .listaFooterestilo:hover {
+        text-decoration: underline;
+        color: black;
+        animation: pulse;
+        animation-duration: 2s; }
+    footer ul .itemFooterestilo {
+      color: #93b693; }
+      footer ul .itemFooterestilo:hover {
+        text-decoration: underline;
+        color: grey;
+        font-style: italic; }
+
+.bi {
+  margin-right: 10px;
+  color: #024b00; }

@@ -1,0 +1,49 @@
+.estiloButton {
+    list-style: none;
+margin-top: 10px;
+background-color: green;
+padding: 10px 10px 10px 10px;
+}
+
+button {
+
+&:hover{
+    background-color: #024b00;}
+
+li{
+    color: white;   
+    font-family:$fonttexto;
+text-align: center;
+
+&:hover{
+    text-decoration: underline;
+
+}
+}
+}
+
+.botonNuevo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+    .botonNuevoEstilo{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .btn-primary {
+        color: #fff !important;
+        background-color: #006400 !important;
+        border-color: #024b00 !important;
+        list-style: none !important;
+        margin-left: 20px;
+    }
+    
+      .btn:hover{ 
+        background-color: #024b00!important;
+        border-color: #024b00 !important;
+        text-decoration: underline !important;
+      }

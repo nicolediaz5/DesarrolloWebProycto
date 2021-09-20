@@ -1,0 +1,53 @@
+.contenedor {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: max-content;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	figure {
+		position: relative;
+		height: 300px;
+		cursor: pointer;
+		width: 400px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height: 100%;
+			transition: all 400ms ease-out;
+			will-change: transform;
+		}
+		.capa {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(100,145,115,0.7);
+			transition: all 400ms ease-out;
+			opacity: 0;
+			visibility: hidden;
+			text-align: center;
+			h3 {
+				color: #fff;
+				font-weight: 400;
+				margin-bottom: 120px;
+				transition: all 400ms ease-out;
+				margin-top: 30px;
+			}
+		}
+		&:hover {
+			>.capa {
+				opacity: 1;
+				visibility: visible;
+				h3 {
+					margin-top: 130px;
+					font-family: $fonttexto;
+				}
+			}
+			>img {
+				transform: scale(1.3);
+			}
+		}
+	}
+}

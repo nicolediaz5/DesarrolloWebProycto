@@ -1,0 +1,47 @@
+footer{
+   
+   display: flex;
+    justify-content: space-around;
+   margin-top: 50px;  
+   background-image: url(/img/FondoFooter-10.png);
+   background-repeat: no-repeat;
+   background-position:left;
+   background-size: contain;
+
+   
+  ul{
+        list-style: none;
+      text-align: justify;
+      font-family: 'Spartan', sans-serif;
+     line-height: 30px;
+  
+   
+
+   
+     .listaFooterestilo {  
+          color: #024b00 ;
+
+            &:hover{
+               text-decoration: underline;
+                        color: black;
+                     animation: pulse;
+            animation-duration: 2s;}
+                        }  
+
+
+      .itemFooterestilo{
+          color: #93b693;
+
+                &:hover{
+                  text-decoration: underline;
+                  color: grey;
+                  font-style: italic;}
+                         }
+
+    }
+    }   
+
+   .bi{
+    margin-right: 10px;
+    color: #024b00;
+} 
