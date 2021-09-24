@@ -395,9 +395,10 @@ footer {
     text-align: justify;
     font-family: 'Spartan', sans-serif;
     line-height: 30px; }
-    footer ul .listaFooterestilo {
-      color: #024b00; }
-      footer ul .listaFooterestilo:hover {
+    footer ul li a .listaFooterestilo {
+      color: #024b00;
+      text-decoration: none; }
+      footer ul li a .listaFooterestilo:hover {
         text-decoration: underline;
         color: black;
         animation: pulse;
