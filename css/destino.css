@@ -396,7 +396,8 @@ footer {
     font-family: 'Spartan', sans-serif;
     line-height: 30px; }
     footer ul .itemFooterestilo {
-      color: #93b693; }
+      color: #93b693;
+      text-decoration: none; }
       footer ul .itemFooterestilo:hover {
         text-decoration: underline;
         color: grey;
