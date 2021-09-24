@@ -14,19 +14,22 @@ footer{
       text-align: justify;
       font-family: 'Spartan', sans-serif;
      line-height: 30px;
-  
-   
+     
+     li {
+      a {
+        .listaFooterestilo {
+          color: #024b00;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            color: black;
+            animation: pulse;
+            animation-duration: 2s;
+          }
+        }
+      }
+    }
 
-   
-     .listaFooterestilo {  
-          color: #024b00 ;
-
-            &:hover{
-               text-decoration: underline;
-                        color: black;
-                     animation: pulse;
-            animation-duration: 2s;}
-                        }  
 
 
       .itemFooterestilo{
@@ -45,3 +48,4 @@ footer{
     margin-right: 10px;
     color: #024b00;
 } 
+   
