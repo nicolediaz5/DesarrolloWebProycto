@@ -395,14 +395,6 @@ footer {
     text-align: justify;
     font-family: 'Spartan', sans-serif;
     line-height: 30px; }
-    footer ul li a .listaFooterestilo {
-      color: #024b00;
-      text-decoration: none; }
-      footer ul li a .listaFooterestilo:hover {
-        text-decoration: underline;
-        color: black;
-        animation: pulse;
-        animation-duration: 2s; }
     footer ul .itemFooterestilo {
       color: #93b693; }
       footer ul .itemFooterestilo:hover {
@@ -413,3 +405,12 @@ footer {
 .bi {
   margin-right: 10px;
   color: #024b00; }
+
+.listaFooterestilo {
+  color: #024b00;
+  text-decoration: none; }
+  .listaFooterestilo:hover {
+    text-decoration: underline;
+    color: black;
+    animation: pulse;
+    animation-duration: 2s; }
