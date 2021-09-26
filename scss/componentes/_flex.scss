@@ -5,16 +5,15 @@ main{
     background-color: rgb(240, 239, 239);
     margin-top: 30px;
 }
-.PrimerArticle{
-    padding-top: 30px;
-    width: 100%;
-}
+
 
 .seccionesFlotantes{
     display: flex;
+    
     flex-direction: row;
     justify-content:space-around;
     padding-top: 20px;
+    width: 100%;
 }
 
 .seccionesFlotantes2{

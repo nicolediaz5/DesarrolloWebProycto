@@ -23,15 +23,12 @@ main {
   background-color: #f0efef;
   margin-top: 30px; }
 
-.PrimerArticle {
-  padding-top: 30px;
-  width: 100%; }
-
 .seccionesFlotantes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 20px; }
+  padding-top: 20px;
+  width: 100%; }
 
 .seccionesFlotantes2 {
   background-image: linear-gradient(#649173, #fdfdfd);
@@ -278,16 +275,16 @@ button li {
   .estilosTitulo {
     position: absolute;
     top: 350px;
-    left: 150px;
+    left: 50px;
     font-family: "Merriweather", serif;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     color: darkgreen;
-    line-height: 1; }
-  #Buscador {
+    line-height: 1.3; }
+  .d-flex {
     position: absolute;
-    top: 220px;
-    left: 100px; }
+    left: 280px;
+    bottom: 130px; }
   #estiloBuscar {
     background-color: green;
     color: white;
@@ -301,17 +298,17 @@ button li {
 @media only screen and (max-width: 480px) {
   .estilosTitulo {
     position: absolute;
-    top: 110px;
-    left: 100px;
+    top: 250px;
+    left: 20px;
     font-family: "Merriweather", serif;
-    font-size: 25px;
+    font-size: 60px;
     text-align: center;
     color: darkgreen;
-    line-height: 1; }
-  #Buscador {
+    line-height: 1.3; }
+  .d-flex {
     position: absolute;
-    top: 180px;
-    left: 160px; }
+    left: 100px;
+    bottom: 130px; }
   #estiloBuscar {
     background-color: green;
     color: white;
