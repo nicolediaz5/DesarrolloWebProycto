@@ -300,7 +300,10 @@ button li {
     font-family: 'Hind Madurai', sans-serif; }
   #estiloCategoria {
     width: 100px;
-    height: 30px; } }
+    height: 30px; }
+  .box__noticia {
+    display: block;
+    flex-direction: column; } }
 
 @media only screen and (max-width: 768px) {
   .estilosTitulo {
