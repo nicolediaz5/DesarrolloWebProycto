@@ -413,57 +413,40 @@ button li {
   .estiloFormContacto {
     width: 100%; } }
 
-.footer {
+footer {
   display: flex;
-  flex-flow: row wrap;
-  padding: 50px;
-  color: #fff; }
-  .footer > * {
-    flex: 1 100%; }
-  .footer ul {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  background-image: url(/img/FondoFooter-10.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain; }
+  footer ul {
     list-style: none;
-    padding-left: 0; }
-  .footer li {
-    line-height: 2em; }
-  .footer a {
-    text-decoration: none; }
-
-.l-footer {
-  margin-right: 1.25em;
-  margin-bottom: 2em; }
-  .l-footer p {
-    padding-right: 20%;
-    color: #999; }
-
-h2 {
-  font-weight: 400;
-  font-size: 15px; }
-
-.r-footer {
-  display: flex;
-  flex-flow: row wrap; }
-  .r-footer > * {
-    flex: 1 50%;
-    margin-right: 1.25em; }
-
-.box a {
-  color: #999; }
-
-.h-box {
-  column-count: 2;
-  column-gap: 1.25em; }
-
-.b-footer {
-  text-align: center;
-  color: #999;
-  padding-top: 50px; }
-
-@media screen and (min-width: 600px) {
-  .r-footer {
-    flex: 2 0px; }
-    .r-footer > * {
-      flex: 1; }
-  .features {
-    flex-grow: 2; }
-  .l-footer {
-    flex: 1 0px; } }
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    line-height: 30px; }
+    footer ul .listaFooterestilo {
+      color: #024b00;
+      text-decoration: none; }
+      footer ul .listaFooterestilo:hover {
+        text-decoration: underline;
+        color: black;
+        animation: pulse;
+        animation-duration: 2s; }
+    footer ul .itemFooterestilo {
+      color: #93b693;
+      text-decoration: none; }
+      footer ul .itemFooterestilo:hover {
+        text-decoration: underline;
+        color: grey;
+        font-style: italic; }
+    footer ul a {
+      text-decoration: none;
+      color: #024b00; }
+      footer ul a:hover {
+        color: #93b693; }
+  footer .bi {
+    margin-right: 10px;
+    color: #024b00; }
