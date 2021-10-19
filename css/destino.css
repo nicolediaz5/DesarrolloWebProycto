@@ -327,12 +327,16 @@ button li {
     height: 30px; }
   .box__noticia {
     display: block;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .botonesNav {
+    position: absolute;
+    left: 350px;
+    top: 550px; } }
 
 @media only screen and (max-width: 768px) {
   .estilosTitulo {
     position: absolute;
-    top: 350px;
+    top: 280px;
     left: 50px;
     font-family: "Merriweather", serif;
     font-size: 70px;
@@ -342,7 +346,7 @@ button li {
   .d-flex {
     position: absolute;
     left: 280px;
-    bottom: 130px; }
+    bottom: 200px; }
   #estiloBuscar {
     background-color: green;
     color: white;
@@ -351,12 +355,16 @@ button li {
     font-family: "Hind Madurai", sans-serif; }
   #estiloCategoria {
     width: 80px;
-    height: 20px; } }
+    height: 20px; }
+  .botonesNav {
+    position: absolute;
+    left: 210px;
+    top: 650px; } }
 
 @media only screen and (max-width: 480px) {
   .estilosTitulo {
     position: absolute;
-    top: 250px;
+    top: 200px;
     left: 20px;
     font-family: "Merriweather", serif;
     font-size: 60px;
@@ -366,7 +374,7 @@ button li {
   .d-flex {
     position: absolute;
     left: 100px;
-    bottom: 130px; }
+    bottom: 240px; }
   #estiloBuscar {
     background-color: green;
     color: white;
@@ -375,7 +383,11 @@ button li {
     font-family: 'Hind Madurai', sans-serif; }
   #estiloCategoria {
     width: 60px;
-    height: 20px; } }
+    height: 20px; }
+  .botonesNav {
+    position: absolute;
+    left: 50px;
+    top: 600px; } }
 
 @media only screen and (max-width: 480px) {
   .estiloFormContacto {
