@@ -138,6 +138,11 @@ button li {
     background: #20ba5a;
     color: #024b00; }
 
+.botonesNav {
+  position: absolute;
+  left: 740px;
+  top: 550px; }
+
 .contenedor {
   width: 100%;
   display: flex;
